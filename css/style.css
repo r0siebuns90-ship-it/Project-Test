@@ -19,7 +19,9 @@
 	text-decoration-line: none;
 	display: flex;
 	padding: 7px;
-
+	justify-content: end;
+	
+	
 }
 .nav ul {
 	text-align: center;
@@ -29,8 +31,13 @@
 	justify-content: space-between;
 	align-items: center;
 	list-style: none;
+	
 }
-.nav li {
+.list{
+	display: flex;
+	flex-direction: row;
+}
+.nav  li {
 	padding: 5px;
 	margin: 5px;
 	text-shadow: 1px 1px 1px black;
@@ -38,11 +45,11 @@
 .title {
 	width: fit-content;
 	height: fit-content;
-	display: flex;
-	justify-content:start ;
+	margin-left: 12px;
 	bottom: 0;
 	top: 0;
 	text-shadow: 1px 1px 1px black;
+	color: white;
 }
 .nav {
 	position: -webkit-sticky;
